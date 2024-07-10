@@ -205,14 +205,14 @@ form input{
     text-align: center;
     padding-top: 10px;
 }
-.foot a{
+.list{
     color: white;
     padding-left: 10px;
     padding-top: 7px;
     font-size: 12px
 }
 
-.foot a:hover{
+.list:hover{
     color: orange;
     text-decoration: solid;
     text-decoration-line: underline;
@@ -222,7 +222,8 @@ form input{
     font-size: 9px;
 }
 
-.foot i{
+.logo{
+    color: white;
     padding: 2px;
     border: 2px solid rgb(61, 61, 36);
     border-radius: 50%;
@@ -232,7 +233,7 @@ form input{
  
  }
  
-.foot i:hover{
+.logo:hover{
    border: 2px solid rgb(206, 138, 11);
    border-radius: 50%;
    height: 25px;
