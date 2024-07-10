@@ -1,34 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MY PORTFOLIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table width="100%">
-        <tr>
-            <td width="30%">
-                <img src="img/My-picture.jpeg" alt="My picture" width="150" height="150">
-            </td>
-            <td width="70%">
-                <h1>AKHI AZIM PAPRI</h1>
-                <p>Rajshahi University, Rajshahi, Bangladesh</p>
-                <p>Email: akhiazimru@gmail.com | Phone: +88 01974793231</p>
-            </td>
-        </tr>
-    </table>
-    <br>
-
     <header>
-        <pre>
-            <a href="Objective.html" terget="_main">Objective</a>   <a href="Education.html" terget="_main">Education</a>   <a href="Experience.html" terget="_main">Experience</a>  <a href="Skills.html"terget="_main">Skills</a>  <a href="Languages.html"terget="_main">Languages</a>
-        </pre>
+        <div class="nevbar">
+            <div class="ak">Akhi <span>Azim</span></div>
+            <div class="sections">
+                <a href="#">Portfolio</a>
+                <a href="#">Services</a>
+                <a href="#">Experience</a>
+                <a href="#">Projects</a>
+                <a href="#">Education</a>
+            </div>
+            <button class="contact">Contact Me</button>
+        </div>
     </header>
-    <hr>
+    
+    <div class="introPic">
+        <div class="intro">
+            <p id="hi">Hi</p>
+            <p id="im">I'm <span class="ak">Akhi Azim Papri</span></p>
+            <p class="Front">a Frontend Developer</p>
+            <p id="discrib">
+                This is my official website to shows all details and work exiprins web development.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum error <br>
+                deleniti natus nulla labore, libero neque quibusdam delectus cupiditate exercitati<br>
+                onem repellat quo assumenda blanditiis. Facilis esse nihil corporis libero.
+            </p>
+            <button class="hire ">Hire Me</button>
+            <button id="experience">Experience</button>
+        </div>
+        <div class="pic"></div>
+    </div>
+
+    <div class="introPicture">
+        <div class="pic"></div>
+        <div class="intoduction">
+            <p id="im">About <span class="dev">Me</span></p>
+            <p id="im">Frontend <span class="dev">Developer</span></p>
+            <p id="discrib">
+                This is my official website to shows all details and work exiprins web development.<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum error <br>
+                deleniti natus nulla labore, libero neque quibusdam delectus cupiditate exercitati<br>
+                onem repellat quo assumenda blanditiis. Facilis esse nihil corporis libero.
+            </p>
+            <button id="exp">Experience</button>
+        </div>
+    </div>
+    <div class="ContactMe">
+        <p class="im">Contact <span id="ak">Me</span></p>
+        <form>
+            <input type="text" placeholder="Full Name"><br>
+            <input type="text" placeholder="Email"><br>
+            <input type="number" placeholder="Phone Number"><br>
+            <input type="text" placeholder="Subject"><br>
+            <input name="feedback" id="feedback" placeholder="Your Message"><br>    
+            <button class="hire hov">Send Message</button>
+        </form>
+    </div>
+
     <footer>
-        <h3>
-            Contact me at akhiazimru@gmail.com.
-        </h3>
+        <div class="foot">
+                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+            <div class="detail">
+                <a href="#">FAQ</a>
+                <a href="#">Services</a>
+                <a href="#">About Me</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="copyright">
+                &#169; 2024 Akhi Azim|All Right Reserved
+            </div>
+        </div>
     </footer>
+
 </body>
 </html>

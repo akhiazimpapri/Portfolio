@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/**header**/
+.nevbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(33, 31, 31);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    position: fixed;
+}
+.sections a{
+    color: white;
+    margin-left: 10px;
+    font-size: 13px;
+
+}
+
+.sections a:hover{
+    color: orange;
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+.contact{
+    font-size: 10px;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    border-radius: 4px;
+}
+.contact:hover{
+    background-color: rgba(249, 167, 16);
+    color: white;
+}
+
+.ak{
+    font-size: 17px;
+    color: rgba(249, 167, 16);
+}
+
+Span{
+    color: white;
+}
+.ak:hover{
+    color: rgb(203, 135, 9);
+}
+
+span:hover{
+    color: rgb(203, 135, 9);
+}
+
+/**box**/
+
+.introPic{
+    height: 555px;
+    background-color: rgb(241, 233, 233);
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro {
+   margin-right: 50px;
+   margin-top: 100px;
+   height: 300px;
+}
+
+.intro button{
+    margin-top: 10px;
+}
+#hi{
+    font-size: 20px;
+    font-weight: 700;
+}
+#im{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Front{
+    font-size: 27px;
+    font-weight: 800; 
+    margin-bottom: 10px;  
+}
+
+#discrib{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.pic{
+    padding-top: 50px;
+    height: 300px;
+    width: 250px;
+    background-image: url(img/My-pic.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+button{
+    border: none;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.hire{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    color: white;
+}
+.hire:hover{
+    background-color: white;
+    color: black;
+}
+
+#experience{
+    background-color: rgb(236, 156, 8);
+    color: white;
+}
+
+#experience:hover{
+    background-color: white;
+    color: black;
+}
+
+.introPicture{
+    height: 480px;
+    background-color: black;
+    color: white;
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dev{
+    color: rgba(249, 167, 16);
+}
+
+#exp{
+    color: rgba(249, 167, 16);
+    background-color: white;
+}
+#exp:hover{
+    color: white;
+    background-color: rgba(249, 167, 16);
+}
+/**contact**/
+.ContactMe{
+    height: 500px;
+    background-color: rgb(241, 233, 233);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.im{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#ak{
+    color: rgba(249, 167, 16);
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+form input{
+   background-color: rgb(224, 214, 214);
+   border: 1px solid rgb(88, 84, 84);
+   border-radius: 4px;
+   height: 40px;
+   width: 350px;
+   margin-bottom: 15px;
+   padding-left: 15px;
+}
+#feedback{
+    height: 100px;
+    padding-bottom: 60px;
+}
+.hire:hover{
+    background-color: white;
+    color: black;
+}
+
+/**footer**/
+
+.foot{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.foot a{
+    color: white;
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 12px
+}
+
+.foot a:hover{
+    color: orange;
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+.copyright{
+    padding-top: 7px;
+    font-size: 9px;
+}
+
+.foot i{
+    padding: 2px;
+    border: 2px solid rgb(61, 61, 36);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+ 
+ }
+ 
+.foot i:hover{
+   border: 2px solid rgb(206, 138, 11);
+   border-radius: 50%;
+   height: 25px;
+   width: 25px;
+   text-align: center;
+
+}
