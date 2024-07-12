@@ -129,12 +129,12 @@ button{
     color: black;
 }
 
-#experience{
+#CV{
     background-color: rgb(236, 156, 8);
     color: white;
 }
 
-#experience:hover{
+#CV:hover{
     background-color: white;
     color: black;
 }
